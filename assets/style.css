@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fcebeb;
+}
+
+.container{
+    max-width: 80%;
+    margin: 250px auto;
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.social ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.social ul li a{
+    display: inline-block;  
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    background-color: #fff;
+    position: relative;
+}
+
+.social ul li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.social ul li .facebook i{
+    display: inline-block;
+    color: rgba(35, 35, 191, 0.993);
+}
+
+.social ul li .twitter i{
+    color: #589bf2;
+}
+
+.social ul li .google-plus{
+    color: #d84040;
+}
+
+.social ul li .dribbble{
+    color: #f62727;
+}
+
+.social ul li .skype{
+    color: #1176f3;
+}
+
